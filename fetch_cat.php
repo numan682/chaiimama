@@ -24,7 +24,7 @@ while ($row = $result->fetch_assoc()) {
 
                   <span class="badge label-1"><?php echo  $row["categories"] ?></span>
 
-                  <span class="span title-2">$<?php echo  $row["price"] ?></span>
+                  
                 </div>
 
                 <p class="card-text label-1">

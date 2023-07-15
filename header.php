@@ -113,9 +113,7 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.png" width="160" height="50" alt="Chaiimama - Home">
-      </a>
+    
 
       <nav class="navbar" data-navbar>
 
@@ -130,7 +128,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="#home" class="navbar-link hover-underline active">
+            <a href="index.php" class="navbar-link hover-underline active">
               <div class="separator"></div>
 
               <span class="span">Home</span>
@@ -153,6 +151,14 @@
             </a>
           </li>
 
+          <li class="navbar-item logo">
+          <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="160" height="50" alt="Chaiimama - Home">
+      </a>
+
+          </li>
+          
+
           <li class="navbar-item">
             <a href="franchise.php" class="navbar-link hover-underline">
               <div class="separator"></div>
@@ -160,13 +166,7 @@
               <span class="span">Franchise</span>
             </a>
           </li>
-          <li class="navbar-item">
-            <a href="location.php" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Location</span>
-            </a>
-          </li>
+         
 
           <li class="navbar-item">
             <a href="blog.php" class="navbar-link hover-underline">
@@ -176,6 +176,14 @@
             </a>
           </li>
 
+
+          <li class="navbar-item">
+            <a href="contact.php" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
          
 
         </ul>
@@ -198,10 +206,7 @@
 
       </nav>
 
-      <a href="contact.php" class="btn btn-secondary">
-        <span class="text text-1">Contact</span>
-        <span class="text text-2" aria-hidden="true">Find A Table</span>
-      </a>
+    
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <span class="line line-1"></span>

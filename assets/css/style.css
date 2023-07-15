@@ -697,6 +697,7 @@ body.nav-active { overflow: hidden; }
 .header .btn { display: none; }
 
 .header {
+
   position: fixed;
   top: 0;
   left: 0;
@@ -725,6 +726,7 @@ body.nav-active { overflow: hidden; }
   justify-content: space-between;
   align-items: center;
   gap: 8px;
+  margin-bottom: -100px;
 }
 
 .nav-open-btn {
@@ -755,12 +757,12 @@ body.nav-active { overflow: hidden; }
   background-color: var(--smoky-black-1);
   top: 0;
   left: -360px;
-  bottom: 0;
+ bottom: 0;
   max-width: 360px;
   width: 100%;
   padding-inline: 30px;
   padding-block-end: 50px;
-  overflow-y: auto;
+  overflow-y: 0;
   visibility: hidden;
   z-index: 2;
   transition: var(--transition-2);
@@ -788,6 +790,7 @@ body.nav-active { overflow: hidden; }
   max-width: max-content;
   margin-inline: auto;
   margin-block-end: 60px;
+  margin-top: -1rem;
 }
 
 .navbar-list {
@@ -1668,6 +1671,7 @@ textarea.input-field {
   .menu-card .title-wrapper {
     display: flex;
     justify-content: flex-start;
+    margin-top: 3rem;
     align-items: center;
     gap: 15px;
   }

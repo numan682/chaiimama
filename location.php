@@ -43,12 +43,7 @@ include 'header.php';
 
     </section>
 
-<center>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.586873042!2d-0.2667477241473047!3d51.52852572050894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sbd!4v1689247289993!5m2!1sen!2sbd" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
- 
-</center>
 
 
 
